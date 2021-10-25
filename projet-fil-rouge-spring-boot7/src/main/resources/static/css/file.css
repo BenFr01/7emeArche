@@ -1,0 +1,311 @@
+@charset "UTF-8";
+
+.center {
+  	display: flex !important;
+ 	justify-content : center !important;
+}
+
+.title {
+    font-family: 'Roboto', monospace;
+    font-weight: bold;
+/*     color: #8ed081; */
+/*     font-size: 4em; */
+}
+
+.dark {
+	color : #000000;
+}
+
+.back-dark {
+    background-color: #000000;
+}
+
+.back-white {
+    background-color: #ffffff;
+}
+
+.margin-nav {
+	margin-left : 50px;
+} 
+
+.margin-auth {
+	margin-left : 20px;
+} 
+
+.page-item.active .page-link {
+    z-index: 3;
+    color: #fff;
+    background-color: #000000;
+    border-color: #000000;
+}
+
+.page-link {
+	color: #000000;
+}
+
+.parallax {
+  	/* The image used */
+  	background-image: url("../images/b6a99c31461981.5651f22f94693.jpg");
+
+  	height: 750px;
+
+  	/* Create the parallax scrolling effect */
+  	background-attachment: fixed;
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+
+.space-around {
+  	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.backgroundwhite {
+	background-color: #FFFFFF;
+}
+
+.margin-top-articles {
+	margin-top : 5em;
+} 
+
+.articles {
+	height: 15em !important;
+	width: 10em !important;
+	background-color: white;
+}
+
+.pics {
+	width: 10em !important;
+}
+
+.column {
+flex-direction: column;
+justify-content: space-between;
+}
+
+.parallax2 {
+  	/* The image used */
+  	background-image: url("../images/b6a99c31461981.5651f22f94693.jpg");
+
+  	/* Set a specific height */
+  	height: 600px;
+
+  	/* Create the parallax scrolling effect */
+  	background-attachment: fixed;
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+
+.parallax3 {
+	background-image: url("../images/paris2.jpeg");
+	  	/* Set a specific height */
+  	height: 600px;
+
+  	/* Create the parallax scrolling effect */
+  	background-attachment: fixed;
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+
+/* Test */
+
+.spacea {
+    justify-content : space-around;
+}
+
+.flex {
+    display: flex;
+}
+
+.mainbottom {
+    width: 100%;
+    /* margin: auto; */
+
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.mainarticle {
+    width: 230px;
+    height: 400px;
+    background-color: white;
+    margin-top: 17em;
+    border-radius: 1px;
+    font-size: 0.9em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-shadow:4px 4px 2px #d7e4ed;
+    margin : auto;
+
+}
+
+.mainarticle2 {
+    width: 230px;
+    height: 370px;
+    background-color: white;
+    margin-top: 17em;
+    border-radius: 1px;
+    font-size: 0.9em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-shadow:4px 4px 2px #d7e4ed;
+    margin : auto;
+
+}
+
+.mainarticle a {
+    color : black;
+    text-decoration: none;
+}
+
+.panierarticle a {
+	color : black;
+    text-decoration: none;
+}
+
+.mainarticle p {
+    margin-left: 1.2em;
+    margin-right: 1.2em;
+}
+
+.mainarticle2 a {
+    color : black;
+    text-decoration: none;
+}
+
+.mainarticle2 p {
+    margin-left: 1.2em;
+    margin-right: 1.2em;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.right-text {
+    text-align: right;
+}
+
+.img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2.5em;
+    margin-bottom: 1em;
+}
+
+h5 {
+    font-weight: bold;
+    padding-top: 1em;
+    font-size: 1em;
+}
+
+/* fin test */
+
+.parallax4 {
+	background-image: url("../images/paris3.jpg");
+	  	/* Set a specific height */
+  	height: 1100px;
+
+  	/* Create the parallax scrolling effect */
+  	background-attachment: fixed;
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+
+.flex-end {
+	display: flex;
+	justify-content: flex-end !important;
+}
+
+.parallax5 {
+	background-image: url("../images/paris4.jpg");
+	  	/* Set a specific height */
+  	height: 600px;
+
+  	/* Create the parallax scrolling effect */
+  	background-attachment: fixed;
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+
+.parallax6 {
+	background-image: url("../images/paris6.jpg");
+	  	/* Set a specific height */
+  	
+
+  	/* Create the parallax scrolling effect */
+  	background-attachment: fixed;
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	width: 50%;
+}
+
+.parallax7 {
+	background-image: url("../images/paris8.png");
+	  	/* Set a specific height */
+  	height: 600px;
+
+  	/* Create the parallax scrolling effect */
+  	background-attachment: fixed;
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+
+.parallax8 {
+	background-image: url("../images/paris8.jpg");
+	  	/* Set a specific height */
+  	height: 700px;
+
+  	/* Create the parallax scrolling effect */
+  	background-attachment: fixed;
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+
+.panierarticle {
+    width: 250px;
+    height: 390px;
+    background-color: white;
+    margin-top: 17em;
+    border-radius: 1px;
+    font-size: 0.9em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-shadow:4px 4px 2px #d7e4ed;
+    margin : auto;
+
+}
+
+.width {
+	width: 50%;
+	display: inline-block;
+	height: 100%;
+}
+
+.commande {
+	width: 60%;
+    background-color: white;
+    margin-top: 25em;
+    border-radius: 1px;
+    font-size: 0.9em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-shadow:4px 4px 2px #d7e4ed;
+    margin : auto;
+}
+
+.paddingshow {
+	padding: 10px;
+}
+
+.fas {
+	margin: 0px 5px;
+}
