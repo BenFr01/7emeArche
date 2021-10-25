@@ -209,7 +209,7 @@ h5 {
 .parallax4 {
 	background-image: url("../images/paris3.jpg");
 	  	/* Set a specific height */
-  	height: 1100px;
+  	height: 600px;
 
   	/* Create the parallax scrolling effect */
   	background-attachment: fixed;

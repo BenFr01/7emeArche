@@ -23,7 +23,7 @@
 	rel="stylesheet">
 <link rel="stylesheet" type="text/css" href="/css/file.css">   
 
-<title>Erreur</title>
+<title>Authentification</title>
 </head>
 <body>
 	<header>

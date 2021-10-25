@@ -25,7 +25,7 @@
       	</li>
       </c:if> -->
 
-	  <c:if test="${ sessionScope.utilisateur != null }">	
+	  <c:if test="${ sessionScope.utilisateur != null }">
         <li class="nav-item">
        		<a class="nav-link" href="/commandeList">Commandes</a>
         </li>
@@ -39,7 +39,7 @@
       
 	  <c:if test="${ sessionScope.utilisateur == null }">
 	  	<li class="nav-item">
-        <a class="nav-link" href="register">S'enregistrer</a>
+        <a class="nav-link" href="/utilisateur/ajout">S'enregistrer</a>
       	</li>
       </c:if>
       
@@ -62,8 +62,8 @@
 	  </c:if>
 	  
       <form class="d-flex justify-content-end" action="/" method="GET">
-        <input class="form-control me-2" name="search" type="search" placeholder="Rechercher" aria-label="Search" value="${search}">
-        <button class="btn btn btn-info" type="submit">Rechercher</button>
+        <input class="form-control me-2" name="search" type="search" placeholder="Tapez votre recherche" aria-label="Search" value="${search}">
+        <button class="btn btn-secondary" type="submit">Rechercher</button>
       </form>
       
       
